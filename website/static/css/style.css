@@ -33,13 +33,17 @@ p {
     padding: 3%;
     text-align: center;
     animation: fadeIn 2s;
+    margin-bottom: 75px;
+    margin-top: 30px;
 }
 
 .home-card {
-    top: 15px;
     width: 60%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2%;
+    margin-bottom: 65px;
+    margin-top: 35px;
 }
 
 body {
