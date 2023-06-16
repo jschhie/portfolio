@@ -123,6 +123,25 @@ PROJECT-BOX IMAGE (temporarily removed)
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
+    width: 60%; /* mobile-first */
+}
+
+@media all and (min-width:650px) {
+    .profile-img {
+        width: 50%;
+    }
+}
+
+@media all and (min-width:750px) {
+    .profile-img {
+        width: 45%;
+    }
+}
+
+@media all and (min-width:850px) {
+    .profile-img {
+        width: 33%;
+    }
 }
 
 .project-box {
