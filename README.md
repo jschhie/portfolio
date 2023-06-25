@@ -9,6 +9,6 @@
 
 <img src="https://github.com/jschhie/portfolio/blob/main/demo/about.png" alt="About Page">
 
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/projects.png" alt="Projects Page, with project descriptions and links">
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/projects1.png" alt="Projects Page, with project descriptions and links">
 
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/more%20projects.png" alt="Projects Page (continued), with additional project descriptions and links">
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/projects2.png" alt="Projects Page (continued), with additional project descriptions and links">
