@@ -87,6 +87,32 @@ nav a {
     font-weight: bolder;
 }
 
+/* details, summary box */
+details {
+    border: 1px solid;
+    border-color: gainsboro;
+    border-radius: 4px;
+    padding: 5px 5px 0;
+    width: 80%;
+}
+
+summary {
+    font-weight: bold;
+    margin: 5px 5px 0;
+    padding: 5px;
+}
+
+details[open] {
+    padding: 5px;
+}
+
+details[open] summary {
+    border-bottom: 1px solid;
+    border-color: gainsboro;
+    margin-bottom: 5px;
+}
+
+
 .projects-container {
     margin-top: 2%;
     display: flex;
@@ -101,15 +127,6 @@ nav a {
     margin-top: 3%;
 }
 
-/*
-PROJECT-BOX IMAGE (temporarily removed)
-.project-img {
-    height: 320px;
-    width: 320px;
-    margin: 2%;
-}
-*/
-
 
 .tech-used-text {
     position: absolute;
@@ -123,24 +140,27 @@ PROJECT-BOX IMAGE (temporarily removed)
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
-    width: 60%; /* mobile-first */
+    width: 60%; /* mobile-first, small views <= 540px */
 }
 
-@media all and (min-width:650px) {
+@media all and (min-width:720px) {
+    /* medium */
     .profile-img {
         width: 50%;
     }
 }
 
-@media all and (min-width:750px) {
+@media all and (min-width:960px) {
+    /* large */
     .profile-img {
-        width: 45%;
+        width: 40%;
     }
 }
 
-@media all and (min-width:850px) {
+@media all and (min-width:1140px) {
+    /* xlarge */
     .profile-img {
-        width: 33%;
+        width: 30%;
     }
 }
 
@@ -149,7 +169,7 @@ PROJECT-BOX IMAGE (temporarily removed)
     align-items: center;
     margin: 1.5%;
     padding: 1%;
-    height: 520px;
+    height: 550px;
     width: 350px;
 }
 
