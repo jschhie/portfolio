@@ -7,7 +7,7 @@
 ## Demo
 <img src="https://github.com/jschhie/portfolio/blob/main/demo/home.png" alt="Personal website portfolio Home Page">
 
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/about.png" alt="About Page">
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/new-about.png" alt="About Page">
 
 <img src="https://github.com/jschhie/portfolio/blob/main/demo/projects1.png" alt="Projects Page, with project descriptions and links">
 
