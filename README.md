@@ -11,4 +11,4 @@
 
 <img src="https://github.com/jschhie/portfolio/blob/main/demo/projects1.png" alt="Projects Page, with project descriptions and links">
 
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/projects2.png" alt="Projects Page (continued), with additional project descriptions and links">
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/backtoTop.png" alt="Projects Page (continued), with additional project descriptions and links">
