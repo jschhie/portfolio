@@ -2,6 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300;700&display=swap');
 
+#topButton {
+    display: none;
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(106, 84, 62);
+    font-family: 'Gaegu';
+    font-weight: bold;
+    font-size: 1.1em;
+    border: 1px dashed rgb(106, 84, 62);
+}
+
+#topButton:hover {
+    border: 1px solid;
+}
+
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -50,7 +72,7 @@ body {
     background-color: rgba(224, 216, 210, 0.2);
 }
 
-nav, footer {
+nav, footer, #topButton {
     /* gingham effect */
     font-size: 20px;
     background-color: white;
