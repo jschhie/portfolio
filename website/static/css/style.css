@@ -66,6 +66,8 @@ p {
     padding: 2%;
     margin-bottom: 65px;
     margin-top: 35px;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 body {
@@ -80,8 +82,12 @@ nav, footer, #topButton {
     repeating-linear-gradient( 90deg, rgba(196, 164, 132, .25) 0px 8px,	transparent 8px 16px);
 }
 
-nav a, p a, .nav-icon {
+.nav-item, p a {
     color: rgb(106, 84, 62);
+}
+
+.nav-item {
+    padding-left: 30%;
     text-align: right;
 }
 
@@ -91,22 +97,41 @@ header {
     z-index: 999;
 }
 
-p a:hover, .nav-item:hover {
+.nav-link, #nav-icon-btn {
+    color: rgb(106, 84, 62, 0.8);
+}
+
+.nav-link:hover {
     text-decoration: none;
-    border-bottom: 2px solid;
+    border-bottom: 1px solid;
     border-color: rgba(106, 84, 62, 1);
     color: rgba(106, 84, 62, 1);
     background-color: rgba(255, 255, 255, 0.8);
 }
 
-nav a:hover, footer a:hover, .project-title a:hover {
+
+footer a:hover, .project-title a:hover {
     color: rgba(106, 84, 62, 1);
     border-bottom: 0;
 }
 
-nav a {
-    margin-left: 50%;
-    font-weight: bolder;
+nav a, .nav-item a {
+    font-weight: bold;
+    padding: 2%;
+    margin-right: 5%;
+}
+
+#nav-icon-btn:focus, #nav-icon-btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+#home-btn {
+    margin-left: 5%;
+}
+
+#nav-icon-btn {
+    margin-right: 5%;
 }
 
 /* details, summary box */
@@ -126,12 +151,16 @@ summary {
 
 details[open] {
     padding: 5px;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 details[open] summary {
     border-bottom: 1px solid;
     border-color: gainsboro;
     margin-bottom: 5px;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 
@@ -162,7 +191,10 @@ details[open] summary {
     margin-left: auto;
     margin-right: auto;
     margin-top: 3%;
+    margin-bottom: 3%;
     width: 60%; /* mobile-first, small views <= 540px */
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 @media all and (min-width:720px) {
@@ -196,8 +228,8 @@ details[open] summary {
 }
 
 .project-box:hover {
-    border-color:rgb(224, 216, 210);
-    border-width: 2px;
+    border-color: rgb(106, 84, 62, 0.6);
+    border-width: 1px;
 }
 
 footer {
@@ -211,7 +243,7 @@ footer {
     font-weight: bolder;
 }
 
-footer a, .project-title a {
+footer a, .project-title a, nav a {
     color: rgb(106, 84, 62, 0.8);
 }
 
