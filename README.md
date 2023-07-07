@@ -7,10 +7,10 @@
 ## Demo
 <img src="https://github.com/jschhie/portfolio/blob/main/demo/home-1.png" alt="Personal website portfolio Home Page">
 
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/about-1.png" alt="About Page">
-
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/project-1.png" alt="Projects Page, with project descriptions and links">
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/project-1.png" alt="Projects Page, with project descriptions and links continued">
 
 <img src="https://github.com/jschhie/portfolio/blob/main/demo/project-2.png" alt="Projects Page, with project demo images">
 
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/project-3.png" alt="Projects Page, with project descriptions and links continued">
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/about-1.png" alt="Projects Page, with project descriptions and links"> 
+
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/project-3.png" alt="About Page">
