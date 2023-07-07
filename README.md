@@ -5,8 +5,12 @@
 <br>⤷ Hosted on PythonAnywhere; you can check it out at: https://jschhieportfolio.pythonanywhere.com/ 
 
 ## Demo
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/home.png" alt="Personal website portfolio Home Page">
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/home-1.png" alt="Personal website portfolio Home Page">
 
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/new-about.png" alt="About Page">
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/about-1.png" alt="About Page">
 
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/projects1.png" alt="Projects Page, with project descriptions and links">
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/project-1.png" alt="Projects Page, with project descriptions and links">
+
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/project-2.png" alt="Projects Page, with project demo images">
+
+<img src="https://github.com/jschhie/portfolio/blob/main/demo/project-3.png" alt="Projects Page, with project descriptions and links continued">

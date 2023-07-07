@@ -74,7 +74,7 @@ body {
     background-color: rgba(224, 216, 210, 0.2);
 }
 
-nav, footer, #topButton {
+nav, footer, #topButton, .close-btn {
     /* gingham effect */
     font-size: 20px;
     background-color: white;
@@ -99,6 +99,16 @@ header {
 
 .nav-link, #nav-icon-btn {
     color: rgb(106, 84, 62, 0.8);
+}
+
+.close-btn {
+    color: rgb(106, 84, 62);
+    font-weight: bold;
+    border: 1px dashed rgb(106, 84, 62);
+}
+
+.close-btn:hover {
+    border: 1px solid rgb(106, 84, 62);
 }
 
 .nav-link:hover {
@@ -163,7 +173,6 @@ details[open] summary {
     backface-visibility: hidden;
 }
 
-
 .projects-container {
     margin-top: 2%;
     display: flex;
@@ -178,6 +187,28 @@ details[open] summary {
     margin-top: 3%;
 }
 
+.project-title a {
+    text-decoration: none;
+}
+
+.demo-text {
+    font-weight: bold;
+}
+
+.img-btn {
+    border: none;
+    background-color: transparent;
+    position: relative;
+}
+
+.demo-area {
+    bottom: 8%;
+    position: absolute;
+}
+
+.modal-title {
+    font-weight: bold;
+}
 
 .tech-used-text {
     position: absolute;
@@ -230,6 +261,7 @@ details[open] summary {
 .project-box:hover {
     border-color: rgb(106, 84, 62, 0.6);
     border-width: 1px;
+    
 }
 
 footer {
