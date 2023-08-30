@@ -287,3 +287,53 @@ footer a, .project-title a, nav a {
     float: right;
     margin-left: 4%;
 }
+
+.gallery {
+    width: 85%;
+    margin: auto;
+}
+
+.gallery-arrow {
+    width: 65%;
+}
+
+@media all and (min-width:576px) {
+    /* small */
+    .carousel, .selected-img {
+        width: 400px;
+        height: 325px;
+    }
+    
+    .gallery-arrow {
+        width: 65%;
+    }
+
+    .gallery {
+        width: 87%;
+    }
+}
+
+@media all and (min-width:768px) {
+    /* medium */
+    .carousel, .selected-img {
+        width: 415px;
+        height: 335px;
+    }
+
+    .gallery-arrow {
+        width: 60%;
+    }
+
+    .gallery {
+        width: 90%;
+    }
+}
+
+.carousel-caption {
+    color: black;
+    height: 60px;
+    font-size: large;
+    position: absolute;
+    bottom: -15px;
+    text-align: center;
+}
