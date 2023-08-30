@@ -9,7 +9,7 @@
 
 <img src="https://github.com/jschhie/portfolio/blob/main/demo/project-1.png" alt="Projects Page, with project descriptions and links continued">
 
-<img src="https://github.com/jschhie/portfolio/blob/main/demo/project-galleries.png" alt="Projects Page, with project demo images">
+<img src="https://github.com/jschhie/portfolio/blob/gallery-projects/demo/project-galleries.png" alt="Projects Page, with project demo images">
 
 <img src="https://github.com/jschhie/portfolio/blob/main/demo/about-1.png" alt="Projects Page, with project descriptions and links"> 
 
