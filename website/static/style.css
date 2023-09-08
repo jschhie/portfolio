@@ -50,6 +50,11 @@ p {
     margin-top: 0;
 }
 
+.about-body {
+    width: 75%;
+    margin: auto;
+}
+
 .outer-card {
     margin: 5%;
     padding: 3%;
@@ -261,7 +266,7 @@ details[open] summary {
 .project-box:hover {
     border-color: rgb(106, 84, 62, 0.6);
     border-width: 1px;
-    
+
 }
 
 footer {
@@ -303,7 +308,7 @@ footer a, .project-title a, nav a {
         width: 400px;
         height: 325px;
     }
-    
+
     .gallery-arrow {
         width: 65%;
     }
