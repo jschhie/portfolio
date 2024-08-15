@@ -11,7 +11,88 @@
     <p>You can also find more of my work on my <span><a href="https://github.com/jschhie" target="_blank">GitHub</a></span> profile! 💡</p>
 
     <div class="projects-container">
+        <!-- ONLINE CAFE ORDERING SYSTEM -->
+        <div class="card project-box">
+            <p class="project-title">
+                Online Cafe Ordering System
+                <a href="https://github.com/jschhie/Toast-Tab-Cafe" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                </a>
+                <a href="https://sunrightcafe.pythonanywhere.com/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-window-fullscreen" viewBox="0 0 16 16">
+                        <path d="M3 3.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1.5 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1Z"/>
+                        <path d="M.5 1a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5v-13a.5.5 0 0 0-.5-.5H.5ZM1 5V2h14v3H1Zm0 1h14v8H1V6Z"/>
+                    </svg>
+                </a>
+            </p>
+            <p>Simulated Toast Tab's online ordering system for cafes (WIP).</p>
+            <br>
+            <p>Built with Flask framework, Python, HTML, CSS, JavaScript, Bootstrap, and SQLite. Deployed on <span><a href="https://sunrightcafe.pythonanywhere.com/" target="_blank">PythonAnywhere.</a></span> </p>
+            <br>
+            <br>
+            <button class="demo-area img-btn" data-bs-toggle="modal" data-bs-target="#onlinecafe">
+                <p class="demo-text">VIEW DEMOS</p>
+                <img src="https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-1.png" width="200">
+            </button>
+            <!-- ONLINE CAFE ORDERING SYSTEM MODAL BOX -->
+            <div class="modal fade" id="onlinecafe" tabindex="-1" aria-labelledby="onlinecafeModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="onlinecafeLabel">Online Cafe Demo</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!-- ONLINE CAFE ORDERING SYSTEM GALLERY -->
+                        <div class="modal-body gallery" id="cafe-gallery">
+                            <div id="cafe-carousel" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-1.png" width="350px" height="300px" class="selected-img d-block w-100">
+                                        <br>
+                                        <p class="carousel-caption d-none d-md-block">Drink customization (1/2).</p>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-2.png" width="350px" height="300px" class="selected-img d-block w-100">
+                                        <br>
+                                        <p class="carousel-caption d-none d-md-block">Drink customization (2/2).</p>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-cart-2.png" width="350px" height="300px" class="selected-img d-block w-100">
+                                        <br>
+                                        <p class="carousel-caption d-none d-md-block">Sample cart.</p>
+                                    </div>
+                                </div>
+                                <!-- ONLINE CAFE PREV/NEXT BTN CONTROLS -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#cafe-carousel" data-bs-slide="prev">
+                                    <span aria-hidden="true">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="rgba(196, 164, 132, .65)" class="gallery-arrow bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                                        </svg>
+                                    </span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#cafe-carousel" data-bs-slide="next">
+                                    <span aria-hidden="true">
+                                        <svg xmlns="http://www.w3.org/2000/svg"  fill="rgba(196, 164, 132, .65)" class="gallery-arrow bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                            <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                                        </svg>
+                                    </span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="modal-footer">
+                            <button type="button" class="btn close-btn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- ONLINE MUSIC BAND STORE -->
         <div class="card project-box">
             <p class="project-title">
                 Online
@@ -37,14 +118,14 @@
             </p>
             <p>Emulated an e-commerce platform with customer portal, reviews, membership rewards, shopping cart, checkout/receipt system, and store catalog for band merch.</p>
             <br>
-            <p>Built with Flask framework, Python, HTML, CSS, JavaScript, Bootstrap, and SQLite. Deployed on <span><a href="https://bandstore.pythonanywhere.com/" target="_blank">PythonAnywhere.</a></span> </p>
+            <p>Deployed on <span><a href="https://bandstore.pythonanywhere.com/" target="_blank">PythonAnywhere.</a></span> </p>
             <br>
             <br>
             <button class="demo-area img-btn" data-bs-toggle="modal" data-bs-target="#bandstore">
                 <p class="demo-text">VIEW DEMOS</p>
                 <img src="https://github.com/jschhie/band-web-app/raw/main/newdemos/avg-stars.png" width="200">
             </button>
-            <!-- BANDSTORE MODAL BOX -->
+            <!-- BAND STORE MODAL BOX -->
             <div class="modal fade" id="bandstore" tabindex="-1" aria-labelledby="bandStoreModal" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -52,7 +133,7 @@
                             <h1 class="modal-title fs-5" id="bandstoreLabel">Pop Band Store Demo</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-
+                        <!-- BAND STORE GALLERY -->
                         <div class="modal-body gallery" id="shop-gallery">
                             <div id="shop-carousel" class="carousel slide">
                                 <div class="carousel-inner">
@@ -72,7 +153,7 @@
                                         <p class="carousel-caption d-none d-md-block">Store with virtual shopping cart.</p>
                                     </div>
                                 </div>
-
+                                <!-- BAND STORE PREV/NEXT BTN CONTROLS -->
                                 <button class="carousel-control-prev" type="button" data-bs-target="#shop-carousel" data-bs-slide="prev">
                                     <span aria-hidden="true">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="rgba(196, 164, 132, .65)" class="gallery-arrow bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
@@ -91,18 +172,16 @@
                                 </button>
                             </div>
                         </div>
-
                         <br>
-
                         <div class="modal-footer">
                             <button type="button" class="btn close-btn" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
+        <!-- DASHBOARD BUILDER -->
         <div class="card project-box">
             <p class="project-title">Dashboard Builder
                 <a href="https://github.com/jschhie/Events-Assistant" target="_blank">
@@ -125,7 +204,7 @@
                 <p class="demo-text">VIEW DEMOS</p>
                 <img src="https://github.com/jschhie/Events-Assistant/raw/master/demos/home-all.png" width="200">
             </button>
-            <!-- DASHBOARD MODAL BOX -->
+            <!-- DASHBOARD BUILDER MODAL BOX -->
             <div class="modal fade" id="dashboard" tabindex="-1" aria-labelledby="dashboardModal" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -143,9 +222,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
+        <!-- FINANCIAL VISUALIZER -->
         <div class="card project-box">
             <p class="project-title">Financial Visualizer
                 <a href="https://github.com/jschhie/Financial-Visualizer" target="_blank">
@@ -160,7 +239,7 @@
                 <p class="demo-text">VIEW DEMOS</p>
                 <img src="https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/double%20barh.png" width="120">
             </button>
-            <!-- GUI MODAL BOX -->
+            <!-- FINANCIAL VISUALIZER MODAL BOX -->
             <div class="modal fade" id="gui" tabindex="-1" aria-labelledby="guiModal" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -168,7 +247,7 @@
                             <h1 class="modal-title fs-5" id="guiLabel">Financial Visualizer Demo</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-
+                        <!-- FINANCIAL VISUALIZER GALLERY -->
                         <div class="modal-body gallery" id="gui-gallery">
                             <div id="gui-carousel" class="carousel slide">
                                 <div class="carousel-inner">
@@ -188,7 +267,7 @@
                                         <p class="carousel-caption d-none d-md-block">Category breakdown for timeframe.</p>
                                     </div>
                                 </div>
-
+                                <!-- FINANCIAL VISUALIZER PREV/NEXT BTN CONTROLS -->
                                 <button class="carousel-control-prev" type="button" data-bs-target="#gui-carousel" data-bs-slide="prev">
                                     <span aria-hidden="true">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="rgba(196, 164, 132, .65)" class="gallery-arrow bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
@@ -207,24 +286,23 @@
                                 </button>
                             </div>
                         </div>
-
                         <br>
-
                         <div class="modal-footer">
                             <button type="button" class="btn close-btn" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 
+        <!-- LINEAGE RDBMS -->
         <div class="card project-box">
             <p class="project-title">Lineage-based Relational Database Management System</p>
             <p>Constructed an RDBMS in Python with a team of 5 to provide lineage-based storage of current and earlier versions of student data featuring create, delete, update, select, and aggregate capabilities.</p>
             <br>
         </div>
 
+        <!-- IMAGE SIMILARITY SEARCH -->
         <div class="card project-box">
             <p class="project-title">Image Similarity Search for <i>Friends</i> (TV Show)
                 <a href="https://github.com/jschhie/Interactive-Image-Classifier" target="_blank">
@@ -237,12 +315,11 @@
             <br>
             <p>Performed <span><a href="https://en.wikipedia.org/wiki/K-means_clustering" target="_blank">k-means clustering</a></span> over 6GB of <span><a href="https://en.wikipedia.org/wiki/Scale-invariant_feature_transform" target="_blank">SIFT</a></span> features to detect visual words and computed similarity scores based on <span><a href="https://en.wikipedia.org/wiki/Bag-of-words_model" target="_blank">bag-of-words</a></span>.</p>
             <br>
-
             <button class="demo-area img-btn" data-bs-toggle="modal" data-bs-target="#friends">
                 <p class="demo-text">VIEW DEMOS</p>
                 <img src="https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/full_frames/full%20frame%20matches%201.jpg?raw=true" width="100">
             </button>
-            <!-- FRIENDS MODAL BOX -->
+            <!-- IMAGE SIMILARITY SEARCH MODAL BOX -->
             <div class="modal fade" id="friends" tabindex="-1" aria-labelledby="friendsModal" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content">
@@ -250,6 +327,7 @@
                             <h1 class="modal-title fs-5" id="friendsLabel">Image Similarity Search for <i>Friends</i> Demo</h1>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
+                        <!-- IMAGE SIMILARITY SEARCH GALLERY -->
                         <div class="modal-body gallery" id="gallery">
                             <div id="carousel" class="carousel slide">
                                 <div class="carousel-inner">
@@ -269,7 +347,7 @@
                                         <p class="carousel-caption d-none d-md-block">Object detection for kitchen table.</p>
                                     </div>
                                 </div>
-
+                                <!-- IMAGE SIMILARITY SEARCH PREV/NEXT BTN CONTROLS -->
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev" onclick="showCaption(this)">
                                     <span aria-hidden="true">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="rgba(196, 164, 132, .65)" class="gallery-arrow bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
@@ -288,16 +366,13 @@
                                 </button>
                             </div>
                         </div>
-
                         <br>
-
                         <div class="modal-footer">
                             <button type="button" class="btn close-btn" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
