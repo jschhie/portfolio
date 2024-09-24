@@ -1,5 +1,5 @@
 # Personal Website Portfolio
 
-* Built from scratch using Python's Flask framework, HTML, CSS, Bootstrap, and Jinja templating
-* Portfolio site with a Home, About, and Projects page
-<br>⤷ Hosted on PythonAnywhere; you can check it out at: https://jschhieportfolio.pythonanywhere.com/ 
+* Developed from scratch using Python's Flask framework, along with HTML, CSS, Bootstrap, and Jinja templating
+* Features a portfolio site with a Home, About, and Projects pages
+* Hosted on PythonAnywhere at: https://jschhieportfolio.pythonanywhere.com
