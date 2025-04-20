@@ -32,14 +32,8 @@
         <header>
             <nav class="shadow navbar navbar-expand-lg navbar-container">
                 <!-- HOME BUTTON, COLLAPSE ICON -->
-                <span id="home-btn">
-                    <a href="/">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
-                            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
-                        </svg>
-                    </a>
-                </span>
-                <button
+                <div id="nav-btn-container">
+                    <button
                     class="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
@@ -48,16 +42,21 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                     id="nav-icon-btn"
-                >
-                    <span class="nav-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
-                            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
-                        </svg>
-                    </span>
-                </button>
+                    style="margin-right: 5%"
+                    >
+                        <span class="nav-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
                 <!-- NAV ITEMS -->
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="home" href="/">HOME</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" id="about" href="/about">ABOUT</a>
                         </li>

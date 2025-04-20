@@ -46,6 +46,13 @@ p {
     font-weight: bolder;
 }
 
+#home-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
 .about-body {
     width: 75%;
     margin: auto;
@@ -76,14 +83,31 @@ body {
 }
 
 .subheader {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.left-col {
+    margin-bottom: 20px;
+}
+
+.right-col {
+    margin-bottom: 50px;
 }
 
 .custom-hr {
     height: 3px;
     width: 80%;
     margin: auto;
+}
+
+#home-card-bottom .custom-hr {
+    width: 10%;
+    display: inline-block;
+}
+
+#home-card-bottom {
+    margin-bottom: 20px;
 }
 
 nav, footer, #topButton, .close-btn, .custom-hr {
@@ -94,13 +118,16 @@ nav, footer, #topButton, .close-btn, .custom-hr {
     repeating-linear-gradient( 90deg, rgba(196, 164, 132, .25) 0px 8px,	transparent 8px 16px);
 }
 
+#nav-btn-container, .nav-item {
+    padding-left: 5%;
+}
+
 .nav-item, p a {
     color: rgb(106, 84, 62);
 }
 
 .nav-item {
-    padding-left: 30%;
-    text-align: right;
+    text-align: left;
 }
 
 header {
@@ -123,7 +150,7 @@ header {
     border: 1px solid rgb(106, 84, 62);
 }
 
-.nav-link:hover {
+.nav-link:hover, #home-btn:hover {
     text-decoration: none;
     border-bottom: 1px solid;
     border-color: rgba(106, 84, 62, 1);
@@ -149,11 +176,8 @@ nav a, .nav-item a {
 }
 
 #home-btn {
-    margin-left: 5%;
-}
-
-#nav-icon-btn {
-    margin-right: 5%;
+    text-decoration: none;
+    padding: 30%;
 }
 
 /* details, summary box */
@@ -242,8 +266,73 @@ details[open] summary {
 
 @media all and (min-width:720px) {
     /* medium */
+    .nav-item {
+        padding-left: 0%;
+        margin-left: 10%;
+
+    }
+
+    .nav-link {
+        padding: 10%;
+    }
+
     .profile-img {
         width: 50%;
+    }
+
+    .about-body .custom-hr {
+        display: none;
+    }
+
+    .about-body .custom-hr:first-of-type {
+        display: block;
+    }
+
+    /* About Page: grid (2-column) */
+    #about-grid {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr); /* 3 equal rows */
+    }
+
+    .subheader {
+        grid-template-columns: repeat(2, 1fr); /* two equal columns */
+    }
+
+    .left-col {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .right-col {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    #langs-row {
+        grid-area: 1 / span 2;
+        display: grid;
+        grid-template-areas: 'langs-label langs'; 
+    }
+
+    #frameworks-row {
+        grid-area: 2 / span 2;
+        display: grid;
+        grid-template-areas: 'frameworks-label frameworks';
+    }
+
+    #dev-tools-row {
+        grid-area: 3 / span 2;
+        display: grid;
+        grid-template-areas: 'tools-label tools';
+    }
+
+    
+    #langs-left {
+        grid-area: langs-label;
+    }
+
+    #langs-right {
+        grid-area: langs;
     }
 }
 
