@@ -1,127 +1,180 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% block content %}
+<div class="card outer-card">
+  <div class="new-section" id="about-header">
+    <div class="custom-hr"></div>
+    <span style="font-weight: bold"> ABOUT ME </span>
+    <div class="custom-hr"></div>
+  </div>
 
-{% block content %}
-    <div class="card outer-card">
-
-        <div class="new-section">
-            ABOUT ME
-        </div>
-
-        <div class="about-body">
-            <p>
-                Hi, I'm Jennifer! I am a software developer and UC Davis Computer Science graduate, based in San Francisco Bay Area. 
-                I enjoy building intuitive, full-stack applications that blend thoughtful design with technical functionality. 
-                My experience spans responsive web development, database design, data visualization, and user interfaces that integrate web accessibility best practices. 💻  
-            </p>
-            <br>
-            <p>
-                Beyond experimenting with new technologies, I also find creativity through digital illustrations and lifestyle vlog editing. 🎨 🎬 📷  </p>
-            </p>  
-            <br>
-            <div class="custom-hr"></div>
-        </div>
-
-        <div class="new-section">
-            SKILLS
-        </div>
-
-        <div class="about-body">
-            <div id="about-grid">
-                <!-- FIRST GRID ROW -->
-                <div id="langs-row" class="subheader">
-                    <div class="left-col" id="langs-left">
-                        Programming Languages:
-                    </div>
-                    <div class="right-col" id="langs-right">
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/314507/python.svg" height="25">
-                            Python
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/508839/html5-02.svg" height="20">
-                            HTML
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/508795/css3-02.svg" height="20">
-                            CSS
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/473670/javascript.svg" height="20">
-                            JavaScript
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/341068/sql.svg" height="25">
-                            SQL
-                        </span>
-                    </div>
-                </div>
-
-                <div class="custom-hr"></div>
-
-                <!-- SECOND GRID ROW -->
-                <div id="frameworks-row" class="subheader">
-                    <div class="left-col">
-                        Frameworks & Libraries:
-                    </div> 
-                    <div class="right-col">
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/508915/flask.svg" height="20">
-                            Flask
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/330083/bootstrap.svg" height="20"> 
-                            Bootstrap
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/369594/tailwind.svg" height="20">
-                            Tailwind
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/521328/vue-16.svg" height="20">
-                            Vue.js
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/314507/python.svg" height="25">
-                            Tkinter
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/314507/python.svg" height="25">
-                            Matplotlib
-                        </span>
-                    </div>
-                </div>
-
-                <div class="custom-hr"></div>
-
-                <!-- THIRD GRID ROW -->
-                <div id="dev-tools-row" class="subheader">
-                    <div class="left-col">
-                        Development Tools:
-                    </div>
-                    <div class="right-col" >
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/473796/sqlite.svg" height="20">
-                            SQLite
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/341068/sql.svg" height="25">
-                            SQLAlchemy
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/473619/git.svg" height="20">
-                            Git
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/508897/bash02.svg" height="20">
-                            Bash
-                        </span>
-                        <span class="icon-tag">
-                            <img src="https://www.svgrepo.com/show/330741/jinja.svg" height="20">
-                            Jinja
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="about-body">
+    <div class="main-body-text">
+      <p>
+        I am a software developer with a passion for building applications that
+        blend thoughtful design with robust functionality. I enjoy tackling
+        complex problems and am eager to discover ways to craft and improve
+        solutions from both a developer standpoint and a user-facing lens.
+      </p>
+      <p>
+        My background from UC Davis and hands-on experience at Audemy have given
+        me a strong foundation in full-stack, reactive web applications,
+        multi-relational databases, and accessible, responsive interfaces.
+      </p>
+      <p>
+        I have experience with Python, Vue.js, JavaScript, Tailwind, Flask,
+        PostgreSQL, Bootstrap, HTML, CSS, and more. 💻
+      </p>
+      <p>
+        Beyond experimenting with new technologies, I also find creativity
+        through digital illustrations and lifestyle vlog editing. 🎨 🎬 📷
+      </p>
     </div>
+  </div>
+
+  <div class="new-section" id="skills-header">
+    <div class="custom-hr"></div>
+    <span style="font-weight: bold"> SKILLS </span>
+    <div class="custom-hr"></div>
+  </div>
+
+  <div class="about-body">
+    <div id="about-grid">
+      <!-- FIRST GRID ROW -->
+      <div id="langs-row" class="subheader">
+        <div class="left-col" id="langs-left">Programming Languages:</div>
+        <div class="right-col" id="langs-right">
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/314507/python.svg"
+              height="25"
+            />
+            Python
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/508839/html5-02.svg"
+              height="20"
+            />
+            HTML
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/508795/css3-02.svg"
+              height="20"
+            />
+            CSS
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/473670/javascript.svg"
+              height="20"
+            />
+            JavaScript
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/341068/sql.svg"
+              height="25"
+            />
+            SQL
+          </span>
+        </div>
+      </div>
+
+      <div class="custom-hr"></div>
+
+      <!-- SECOND GRID ROW -->
+      <div id="frameworks-row" class="subheader">
+        <div class="left-col">Frameworks & Libraries:</div>
+        <div class="right-col">
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/508915/flask.svg"
+              height="20"
+            />
+            Flask
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/330083/bootstrap.svg"
+              height="20"
+            />
+            Bootstrap
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/369594/tailwind.svg"
+              height="20"
+            />
+            Tailwind
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/521328/vue-16.svg"
+              height="20"
+            />
+            Vue.js
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/314507/python.svg"
+              height="25"
+            />
+            Tkinter
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/314507/python.svg"
+              height="25"
+            />
+            Matplotlib
+          </span>
+        </div>
+      </div>
+
+      <div class="custom-hr"></div>
+
+      <!-- THIRD GRID ROW -->
+      <div id="dev-tools-row" class="subheader">
+        <div class="left-col">Development Tools:</div>
+        <div class="right-col">
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/473796/sqlite.svg"
+              height="20"
+            />
+            SQLite
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/341068/sql.svg"
+              height="25"
+            />
+            SQLAlchemy
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/473619/git.svg"
+              height="20"
+            />
+            Git
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/508897/bash02.svg"
+              height="20"
+            />
+            Bash
+          </span>
+          <span class="icon-tag">
+            <img
+              src="https://www.svgrepo.com/show/330741/jinja.svg"
+              height="20"
+            />
+            Jinja
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
