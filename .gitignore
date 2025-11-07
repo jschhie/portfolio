@@ -1,1 +1,3 @@
 .vercel
+*.pyc
+.DS_STORE
