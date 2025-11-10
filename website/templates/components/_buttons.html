@@ -1,15 +1,15 @@
 <!-- 'VIEW DEMOS' BUTTON WITH IMG THUMBNAIL -->
 {% macro demo_button(target_id, thumbnail_src) %}
 <button
-  class="demo-area img-btn"
+  class="img-btn"
   data-bs-toggle="modal"
   data-bs-target={{target_id}}
 >
-  <p class="demo-text">VIEW DEMOS</p>
   <img
     src={{thumbnail_src}}
     width="200"
   />
+  <p class="demo-text">VIEW DEMOS</p>
 </button>
 {% endmacro %}
 

@@ -1,5 +1,5 @@
-<!-- PROJECT TEXT -->
-{% macro project_content(title, repo, url, desc, tech_stack) %}
+<!-- PROJECT HEADER: TITLE, GITHUB, LIVE SITE ICONS -->
+{% macro project_header(title, repo, url) %}
 <div>
   <p class="project-title">{{ title }}</p>
   <span class="icon-tag">
@@ -39,12 +39,18 @@
     </a>
     {% endif %}
   </span>
+  <br />
+</div>
+{% endmacro %}
+
+<!-- PROJECT TEXT -->
+{% macro project_text(desc, tech_stack) %}
+<div class="project-text-wrapper">
   <p>{{desc}}</p>
-  <br />
-  <p>
+  <br/>
+  <p style="margin: auto;">
     <span style="font-weight: bold;">Tech: </span> 
-    {{tech_stack}}
+    <p>{{tech_stack}}</p>
   </p>
-  <br />
 </div>
 {% endmacro %}
