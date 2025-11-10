@@ -301,6 +301,19 @@ details[open] summary {
   margin-top: auto;
 }
 
+.img-btn p:hover {
+  color: rgba(106, 84, 62, 1);
+}
+
+.img-btn img {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.img-btn img:hover {
+  opacity: 0.5;
+}
+
 .demo-area {
   bottom: 8%;
   position: absolute;
@@ -495,7 +508,7 @@ details[open] summary {
   align-items: center;
   padding: 3%;
   margin: 3%;
-  height: 590px;
+  height: 650px;
   width: 350px;
 }
 
