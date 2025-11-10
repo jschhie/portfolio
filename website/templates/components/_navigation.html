@@ -1,0 +1,27 @@
+<!-- PROJECT MODAL HEADER: CLOSE BUTTON -->
+{% macro modal_header(modal_id, title) %}
+<div class="modal-header">
+  <h1 class="modal-title fs-5" id={{modal_id}}>
+    {{title}}
+  </h1>
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="modal"
+    aria-label="Close"
+  ></button>
+</div>
+{% endmacro %}
+
+<!-- PROJECT MODAL FOOTER: CLOSE BUTTON -->
+{% macro modal_footer() %}
+<div class="modal-footer">
+  <button
+    type="button"
+    class="btn close-btn"
+    data-bs-dismiss="modal"
+  >
+    Close
+  </button>
+</div>
+{% endmacro %}
