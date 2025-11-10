@@ -1,0 +1,36 @@
+<!-- PROJECT MODAL: IMAGE CAROUSEL -->
+{% macro project_carousel(image_urls, captions) %}
+<div class="carousel-inner">
+  {% for i in range(image_urls | length) %}
+    {% if i == 0 %}
+    <!-- DEFAULT: SET FIRST IMAGE AS ACTIVE -->
+    <div class="carousel-item active">
+      <img
+        src="{{image_urls[i]}}"
+        width="350px"
+        height="300px"
+        class="selected-img d-block w-100"
+      />
+      <br />
+      <p class="carousel-caption d-none d-md-block">
+        {{captions[i]}}
+      </p>
+    </div>
+    {% else %}
+    <!-- INACTIVE -->
+    <div class="carousel-item">
+      <img
+        src="{{image_urls[i]}}"
+        width="350px"
+        height="300px"
+        class="selected-img d-block w-100"
+      />
+      <br />
+      <p class="carousel-caption d-none d-md-block">
+        {{captions[i]}}
+      </p>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endmacro %}
