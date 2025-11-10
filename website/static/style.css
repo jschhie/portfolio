@@ -330,6 +330,14 @@ details[open] summary {
   left: auto;
 }
 
+.tech-badge {
+  width: auto;
+  border-radius: 12px;
+  border: 1px solid;
+  padding: 5px;
+  border-color: rgba(106, 84, 62, 1);
+}
+
 .profile-img {
   border-radius: 50%;
   display: block;
@@ -509,7 +517,7 @@ details[open] summary {
   align-items: center;
   padding: 3%;
   margin: 3%;
-  height: 680px;
+  height: 700px;
   width: 350px;
 }
 
