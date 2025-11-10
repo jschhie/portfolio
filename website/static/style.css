@@ -297,8 +297,8 @@ details[open] summary {
 .img-btn {
   border: none;
   background-color: transparent;
-  position: relative;
-  margin-top: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .img-btn p:hover {
@@ -314,9 +314,10 @@ details[open] summary {
   opacity: 0.5;
 }
 
-.demo-area {
-  bottom: 8%;
-  position: absolute;
+.project-text-wrapper {
+  position: absolute; 
+  bottom: 5%;
+  padding: 8%;
 }
 
 .modal-title {
@@ -508,7 +509,7 @@ details[open] summary {
   align-items: center;
   padding: 3%;
   margin: 3%;
-  height: 650px;
+  height: 680px;
   width: 350px;
 }
 

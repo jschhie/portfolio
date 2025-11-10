@@ -5,28 +5,22 @@
     {% if i == 0 %}
     <!-- DEFAULT: SET FIRST IMAGE AS ACTIVE -->
     <div class="carousel-item active">
-      <img
-        src="{{image_urls[i]}}"
-        class="selected-img d-block w-100"
-      />
-      <br />
-      <p class="carousel-caption">
-        {{captions[i]}}
-      </p>
-    </div>
     {% else %}
     <!-- INACTIVE -->
     <div class="carousel-item">
+    {% endif %}
       <img
         src="{{image_urls[i]}}"
-        class="selected-img d-block w-100"
+        width="100%"
+        height="auto"
+        class="selected-img d-block"
+        style="object-fit: contain"
       />
       <br />
       <p class="carousel-caption">
         {{captions[i]}}
       </p>
     </div>
-    {% endif %}
   {% endfor %}
 </div>
 {% endmacro %}
