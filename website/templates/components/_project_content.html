@@ -50,7 +50,11 @@
   <br/>
   <p style="margin: auto;">
     <span style="font-weight: bold;">Tech: </span> 
-    <p>{{tech_stack}}</p>
+    <p style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
+    {% for tech in tech_stack %}
+      <span class="tech-badge">{{tech}}</span>
+    {% endfor %}
+    </p>
   </p>
 </div>
 {% endmacro %}
