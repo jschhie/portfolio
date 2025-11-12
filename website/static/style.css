@@ -41,8 +41,8 @@
 .cross-bg-pattern {
   /* Decorative, custom grey crossed lines grid bg pattern */
   background-color: white;
-  background-image: linear-gradient(to right, #F2F2F2 1px, transparent 1px),
-                  linear-gradient(to bottom, #F2F2F2 1px, transparent 1px);
+  background-image: linear-gradient(to right, #f2f2f2 1px, transparent 1px),
+    linear-gradient(to bottom, #f2f2f2 1px, transparent 1px);
   background-size: 25px 25px;
 }
 
@@ -117,7 +117,9 @@ p {
   backface-visibility: hidden;
 }
 
-.home-card, .about-card, .projects-wrapper-card {
+.home-card,
+.about-card,
+.projects-wrapper-card {
   border-radius: 15px;
 }
 
@@ -330,7 +332,7 @@ details[open] summary {
 }
 
 .project-text-wrapper {
-  position: absolute; 
+  position: absolute;
   bottom: 5%;
   padding: 8%;
 }
@@ -370,6 +372,16 @@ details[open] summary {
   filter: grayscale(0%) brightness(100%);
 }
 
+.about-parent-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-svg-flex {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 @media all and (min-width: 720px) {
   /* medium */
   .nav-item {
@@ -407,7 +419,6 @@ details[open] summary {
     flex-direction: row;
     align-items: center;
     justify-items: center;
-
     margin-bottom: 2%;
   }
 
@@ -420,7 +431,6 @@ details[open] summary {
   }
 
   .about-parent-flex svg {
-    height: 25px;
     flex-grow: 1;
   }
 
@@ -538,12 +548,12 @@ details[open] summary {
   align-items: center;
   padding: 3%;
   margin: 3%;
-  height: 700px;
+  height: 725px;
   width: 350px;
 }
 
 .icon-tag svg:hover {
-  fill: rgb(106, 84, 62, .80);
+  fill: rgb(106, 84, 62, 0.8);
 }
 
 .project-box:hover {
@@ -579,8 +589,12 @@ nav a {
   margin-left: 4%;
 }
 
+.carousel {
+  margin: auto;
+}
+
 .gallery {
-  width: 85%;
+  width: 100%;
   margin: auto;
 }
 
@@ -588,20 +602,40 @@ nav a {
   width: 65%;
 }
 
+.carousel-item {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.selected-img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.carousel,
+.selected-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 415px;
+  height: 335px;
+}
+
+.carousel-caption {
+  height: auto;
+  width: auto;
+  color: black;
+  font-size: medium;
+  position: absolute;
+  bottom: -30px;
+  display: block;
+}
+
 @media all and (min-width: 200px) {
   /* mobile, x-small, small */
-  .carousel,
-  .selected-img {
-    width: 400px;
-    height: 325px;
-  }
-
   .gallery-arrow {
     width: 65%;
-  }
-
-  .gallery {
-    width: 87%;
   }
 
   .right-col {
@@ -620,7 +654,6 @@ nav a {
     margin: auto;
     background-color: white;
   }
-
 }
 
 @media all and (min-width: 768px) {
@@ -630,18 +663,8 @@ nav a {
     height: 100%;
   }
 
-  .carousel,
-  .selected-img {
-    width: 415px;
-    height: 335px;
-  }
-
   .gallery-arrow {
     width: 60%;
-  }
-
-  .gallery {
-    width: 90%;
   }
 
   .project-box {
@@ -649,13 +672,4 @@ nav a {
     margin-left: 1%;
     margin-bottom: 3%;
   }
-}
-
-.carousel-caption {
-  color: black;
-  height: 60px;
-  font-size: large;
-  position: absolute;
-  bottom: -15px;
-  text-align: center;
 }
