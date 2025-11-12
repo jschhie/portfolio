@@ -1,4 +1,5 @@
 {% extends "base.html" %} {% block content %}
+
 <div class="card outer-card">
   <div class="new-section" id="about-header">
     <div class="custom-hr"></div>
@@ -25,10 +26,10 @@
         </div>
         <div class="about-text-flex">
           <p>
-            I am a software engineer who is passionate about building applications
-            that blend thoughtful design with robust functionality. I enjoy
-            tackling complex problems and am eager to craft and 
-            improve solutions from both a developer and user standpoint. 
+            I am a software engineer who is passionate about building
+            applications that blend thoughtful design with robust functionality.
+            I enjoy tackling complex problems and am eager to craft and improve
+            solutions from both a developer and user standpoint.
           </p>
         </div>
       </div>
@@ -51,8 +52,8 @@
           <p>
             My background from UC Davis and hands-on experience at Audemy have
             given me a strong foundation in developing full-stack, reactive web
-            applications, designing multi-relational databases, and implementing accessible, responsive
-            interfaces. 
+            applications, designing multi-relational databases, and implementing
+            accessible, responsive interfaces.
           </p>
         </div>
       </div>
@@ -73,8 +74,8 @@
         </div>
         <div class="about-text-flex">
           <p>
-            I have experience with Python, JavaScript, Vue, Tailwind, SQL, Flask, 
-            Bootstrap, HTML, and CSS. 
+            I have experience with Python, JavaScript, Vue, Tailwind, SQL,
+            Flask, Bootstrap, HTML, and CSS.
           </p>
         </div>
       </div>
@@ -97,7 +98,7 @@
         <div class="about-text-flex">
           <p>
             Beyond experimenting with new technologies, I also find creativity
-            through digital illustrations and lifestyle vlog editing. 
+            through digital illustrations and lifestyle vlog editing.
           </p>
         </div>
       </div>
@@ -106,7 +107,7 @@
 
   <div class="new-section" id="skills-header">
     <div class="custom-hr"></div>
-    <span style="font-weight: bold"> SKILLS </span>
+    <span style="font-weight: bold">TECHNICAL SKILLS </span>
     <div class="custom-hr"></div>
   </div>
 
@@ -116,41 +117,12 @@
       <div id="langs-row" class="subheader">
         <div class="left-col" id="langs-left">Programming Languages:</div>
         <div class="right-col" id="langs-right">
+          {% for language in all_lang_data %}
           <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/314507/python.svg"
-              height="25"
-            />
-            Python
+            <img src="{{ language['iconPath'] }}" height="25" />
+            {{ language["label"] }}
           </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/473670/javascript.svg"
-              height="20"
-            />
-            JavaScript
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/508839/html5-02.svg"
-              height="20"
-            />
-            HTML
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/508795/css3-02.svg"
-              height="20"
-            />
-            CSS
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/341068/sql.svg"
-              height="25"
-            />
-            SQL
-          </span>
+          {% endfor %}
         </div>
       </div>
 
@@ -160,99 +132,42 @@
       <div id="frameworks-row" class="subheader">
         <div class="left-col">Frameworks & Libraries:</div>
         <div class="right-col">
+          {% for framework in all_frameworks_data %}
           <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/521328/vue-16.svg"
-              height="20"
-            />
-            Vue.js
+            <img src="{{ framework['iconPath'] }}" height="25" />
+            {{ framework["label"] }}
           </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/369594/tailwind.svg"
-              height="20"
-            />
-            Tailwind CSS
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/508915/flask.svg"
-              height="20"
-            />
-            Flask
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/330083/bootstrap.svg"
-              height="20"
-            />
-            Bootstrap
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/314507/python.svg"
-              height="25"
-            />
-            Tkinter
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/314507/python.svg"
-              height="25"
-            />
-            Matplotlib
-          </span>
+          {% endfor %}
         </div>
       </div>
 
       <div class="custom-hr"></div>
 
       <!-- THIRD GRID ROW -->
-      <div id="dev-tools-row" class="subheader">
-        <div class="left-col">Databases & Developer Tools:</div>
+      <div id="data-skills-row" class="subheader">
+        <div class="left-col">Data:</div>
         <div class="right-col">
+          {% for skill in all_data_skills %}
           <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/473796/sqlite.svg"
-              height="20"
-            />
-            SQLite
+            <img src="{{ skill['iconPath'] }}" height="25" />
+            {{ skill["label"] }}
           </span>
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="custom-hr"></div>
+
+      <!-- FOURTH GRID ROW -->
+      <div id="dev-tools-row" class="subheader">
+        <div class="left-col">Tools:</div>
+        <div class="right-col">
+          {% for tool in all_tools_data %}
           <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/342129/postgresql.svg"
-              height="25"
-            />
-            PostgreSQL
+            <img src="{{ tool['iconPath'] }}" height="25" />
+            {{ tool["label"] }}
           </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/473619/git.svg"
-              height="20"
-            />
-            Git
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/508897/bash02.svg"
-              height="20"
-            />
-            Bash
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/354513/vercel-icon.svg"
-              height="20"
-            />
-            Vercel
-          </span>
-          <span class="icon-tag">
-            <img
-              src="https://www.svgrepo.com/show/330741/jinja.svg"
-              height="20"
-            />
-            Jinja
-          </span>
+          {% endfor %}
         </div>
       </div>
     </div>
