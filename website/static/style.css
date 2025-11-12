@@ -618,7 +618,7 @@ nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 415px;
+  width: 250px;
   height: 335px;
 }
 
@@ -632,7 +632,7 @@ nav a {
   display: block;
 }
 
-@media all and (min-width: 200px) {
+@media all and (min-width: 300px) {
   /* mobile, x-small, small */
   .gallery-arrow {
     width: 65%;
@@ -656,8 +656,22 @@ nav a {
   }
 }
 
+@media all and (min-width: 400px) {
+  .carousel,
+  .selected-img {
+    width: 350px;
+    height: 335px;
+  }
+}
+
 @media all and (min-width: 768px) {
   /* medium */
+  .carousel,
+  .selected-img {
+    width: 450px;
+    height: 335px;
+  }
+  
   .right-col {
     align-items: center;
     height: 100%;
