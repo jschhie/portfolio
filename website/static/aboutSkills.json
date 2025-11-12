@@ -74,16 +74,16 @@
       "label": "Bash"
     },
     {
+      "iconPath": "https://www.svgrepo.com/show/416900/chrome-internet-media.svg",
+      "label": "Chrome DevTools"
+    },
+    {
       "iconPath": "https://www.svgrepo.com/show/354513/vercel-icon.svg",
       "label": "Vercel"
     },
     {
       "iconPath": "https://www.svgrepo.com/show/341869/google-cloud.svg",
       "label": "Google Cloud Platform"
-    },
-    {
-      "iconPath": "https://www.svgrepo.com/show/330741/jinja.svg",
-      "label": "Jinja"
     }
   ]
 }
