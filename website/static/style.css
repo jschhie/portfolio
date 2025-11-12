@@ -38,6 +38,14 @@
   font-size: 1.03em;
 }
 
+.cross-bg-pattern {
+  /* Decorative, custom grey crossed lines grid bg pattern */
+  background-color: white;
+  background-image: linear-gradient(to right, #F2F2F2 1px, transparent 1px),
+                  linear-gradient(to bottom, #F2F2F2 1px, transparent 1px);
+  background-size: 25px 25px;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -107,6 +115,10 @@ p {
   margin-top: 35px;
   transition: 0.5s ease;
   backface-visibility: hidden;
+}
+
+.home-card, .about-card, .projects-wrapper-card {
+  border-radius: 15px;
 }
 
 .main-home-card {
@@ -601,6 +613,7 @@ nav a {
     height: 45px;
     width: auto;
     margin: auto;
+    background-color: white;
   }
 
 }
