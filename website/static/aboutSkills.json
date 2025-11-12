@@ -1,0 +1,85 @@
+{
+  "languages": [
+    {
+      "iconPath": "https://www.svgrepo.com/show/314507/python.svg",
+      "label": "Python"
+    },
+
+    {
+      "iconPath": "https://www.svgrepo.com/show/473670/javascript.svg",
+      "label": "JavaScript"
+    },
+
+    {
+      "iconPath": "https://www.svgrepo.com/show/508839/html5-02.svg",
+      "label": "HTML"
+    },
+
+    {
+      "iconPath": "https://www.svgrepo.com/show/508795/css3-02.svg",
+      "label": "CSS"
+    }
+  ],
+  "frameworks": [
+    {
+      "iconPath": "https://www.svgrepo.com/show/521328/vue-16.svg",
+      "label": "Vue.js"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/369594/tailwind.svg",
+      "label": "Tailwind CSS"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/508915/flask.svg",
+      "label": "Flask"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/330083/bootstrap.svg",
+      "label": "Bootstrap"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/314507/python.svg",
+      "label": "Tkinter"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/314507/python.svg",
+      "label": "Matplotlib"
+    }
+  ],
+  "dataSkills": [
+    {
+      "iconPath": "https://www.svgrepo.com/show/342129/postgresql.svg",
+      "label": "PostgreSQL"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/473796/sqlite.svg",
+      "label": "SQLite"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/341068/sql.svg",
+      "label": "SQL"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/340479/json.svg",
+      "label": "JSON"
+    }
+  ],
+  "tools": [
+    {
+      "iconPath": "https://www.svgrepo.com/show/473619/git.svg",
+      "label": "Git"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/508897/bash02.svg",
+      "label": "Bash"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/354513/vercel-icon.svg",
+      "label": "Vercel"
+    },
+    {
+      "iconPath": "https://www.svgrepo.com/show/330741/jinja.svg",
+      "label": "Jinja"
+    }
+  ]
+}
