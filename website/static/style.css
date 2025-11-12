@@ -361,8 +361,13 @@ details[open] summary {
   margin-top: 10%;
   margin-bottom: 10%;
   width: 60%; /* mobile-first, small views <= 540px */
-  transition: 0.5s ease;
   backface-visibility: hidden;
+  transition: filter 0.5s ease;
+  filter: grayscale() brightness(120%);
+}
+
+.profile-img:hover {
+  filter: grayscale(0%) brightness(100%);
 }
 
 @media all and (min-width: 720px) {
