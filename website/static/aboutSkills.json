@@ -78,6 +78,10 @@
       "label": "Vercel"
     },
     {
+      "iconPath": "https://www.svgrepo.com/show/341869/google-cloud.svg",
+      "label": "Google Cloud Platform"
+    },
+    {
       "iconPath": "https://www.svgrepo.com/show/330741/jinja.svg",
       "label": "Jinja"
     }
