@@ -176,6 +176,7 @@ nav,
 footer,
 #topButton,
 .close-btn,
+.modal-header,
 .custom-hr {
   /* gingham effect */
   font-size: 20px;
@@ -198,7 +199,8 @@ footer,
 }
 
 .nav-item,
-p a {
+p a,
+.modal-header {
   color: rgb(106, 84, 62);
 }
 
@@ -225,6 +227,7 @@ header {
 
 .close-btn:hover {
   border: 1px solid rgb(106, 84, 62);
+  color: rgb(106, 84, 62);
 }
 
 .nav-link:hover,
