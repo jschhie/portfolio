@@ -1,5 +1,5 @@
 <!-- PROJECT MODAL: IMAGE CAROUSEL -->
-{% macro project_carousel(image_urls, captions) %}
+{% macro project_carousel(image_urls, captions, should_resize) %}
 <div class="carousel-inner">
   {% for i in range(image_urls | length) %}
     {% if i == 0 %}
@@ -9,12 +9,22 @@
     <!-- INACTIVE -->
     <div class="carousel-item">
     {% endif %}
+
+    <!-- Check if images need to be resized (via extra padding) -->
+    {% if should_resize == 'true' %}
+      <img
+        src="{{image_urls[i]}}"
+        class="selected-img resized-img"
+      />
+    {% else %}
       <img
         src="{{image_urls[i]}}"
         class="selected-img"
       />
+    {% endif %}
       <p class="carousel-caption">
         {{captions[i]}}
+        <span>({{i+1}}/{{image_urls | length}})</span>
       </p>
     </div>
   {% endfor %}

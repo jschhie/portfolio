@@ -450,6 +450,10 @@ nav a {
 
 @media all and (min-width: 300px) {
   /* mobile, x-small, small */
+  .resized-img {
+    padding: 15%;
+  }
+
   .gallery-arrow {
     width: 65%;
   }
@@ -612,8 +616,12 @@ nav a {
   /* medium */
   .carousel,
   .selected-img {
-    width: 450px;
-    height: 335px;
+    width: 400px;
+    height: 400px;
+  }
+
+  .resized-img {
+    padding: 15%;
   }
 
   .right-col {
