@@ -34,7 +34,7 @@
       }}
       {{ buttons.demo_button(
           '#bandstore', 
-          'https://github.com/jschhie/band-web-app/raw/main/newdemos/avg-stars.png',
+          'https://github.com/jschhie/band-web-app/raw/main/newdemos/avg-stars-store.png',
         ) 
       }}
       <!-- BAND STORE MODAL BOX -->
@@ -53,8 +53,10 @@
             <div class="modal-body gallery" id="shop-gallery">
               <div id="shop-carousel" class="carousel slide">
                 {{ carousel.project_carousel(
-                    ['https://github.com/jschhie/band-web-app/raw/main/newdemos/avg-stars.png', 'https://github.com/jschhie/Mock-Band-Web-App/raw/main/newdemos/new-font-merch2.png', 'https://live.staticflickr.com/65535/53153939310_c8105d0dca_k.jpg'], 
-                    ['Product catalog & reviews/ratings.', 'Customer receipt.', 'Store with virtual shopping cart.'],
+                    ['https://github.com/jschhie/band-web-app/raw/main/newdemos/avg-stars.png', 
+                    'https://github.com/jschhie/Mock-Band-Web-App/raw/main/newdemos/new-font-merch2.png', 
+                    'https://live.staticflickr.com/65535/53153939310_c8105d0dca_k.jpg'], 
+                    ['Product catalog & reviews/ratings.', 'Customer receipt.', 'Dynamic shopping cart.'],
                     'false',
                   ) 
                 }}
@@ -70,7 +72,8 @@
       </div>
       {{
         project_content.project_text(
-          'Designed and developed a full-stack e-commerce platform with a secure customer portal, dynamic shopping cart logic, membership rewards system, and complete transaction processing.',
+          'Designed and developed a full-stack e-commerce platform with a secure customer portal, 
+          dynamic shopping cart logic, membership rewards system, and complete transaction processing.',
           ['Python', 'Flask', 'JS', 'SQLite', 'Jinja', 'Bootstrap', 'HTML', 'CSS'],
         )
       }}
@@ -86,7 +89,7 @@
       }}
       {{ buttons.demo_button(
           '#onlinecafe', 
-          'https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-1.png',
+          'https://github.com/jschhie/toast-tab-cafe/raw/main/demos/searchbar-1.png',
         ) 
       }}
       <!-- ONLINE CAFE ORDERING SYSTEM MODAL BOX -->
@@ -105,8 +108,11 @@
             <div class="modal-body gallery" id="cafe-gallery">
               <div id="cafe-carousel" class="carousel slide">
                 {{ carousel.project_carousel(
-                    ['https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-1.png', 'https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-2.png', 'https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-cart-2.png'], 
-                    ['Drink description.', 'Drink customization.', 'Sample cart.'],
+                    ['https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-1.png', 
+                    'https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-2.png', 
+                    'https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-cart-2.png', 
+                    'static/images/cafe-admin-view.png'], 
+                    ['Drink selection.', 'Customization.', 'Sample cart.', 'Admin dashboard.'],
                     'false',
                   ) 
                 }}
@@ -122,7 +128,8 @@
       </div>
       {{
         project_content.project_text(
-          'Developed a mobile-first cafe ordering system with an integrated Admin Dashboard for real-time inventory tracking and complex order management.',
+          'Developed a mobile-first cafe ordering system with an integrated Admin Dashboard for 
+          real-time inventory tracking and complex order management.',
           ['Python', 'Flask', 'JS', 'SQLite', 'Jinja', 'Bootstrap', 'HTML', 'CSS'],
         )
       }}
@@ -138,7 +145,7 @@
       }}
       {{ buttons.demo_button(
           '#dashboard', 
-          'https://github.com/jschhie/Events-Assistant/raw/master/demos/edit-members.png',
+          'https://github.com/jschhie/Events-Assistant/raw/master/demos/updated-shared-task2.png',
         ) 
       }}
       <!-- TEAM TASK BOARD MODAL BOX -->
@@ -157,7 +164,9 @@
             <div class="modal-body gallery" id="dashboard-gallery">
               <div id="dashboard-carousel" class="carousel slide">
                 {{ carousel.project_carousel(
-                    ['https://github.com/jschhie/Events-Assistant/raw/master/demos/edit-members.png', 'https://github.com/jschhie/Events-Assistant/raw/master/demos/updated-shared-task2.png', 'https://github.com/jschhie/Events-Assistant/raw/master/demos/edit-shared-task.png'], 
+                    ['https://github.com/jschhie/Events-Assistant/raw/master/demos/edit-members.png', 
+                    'https://github.com/jschhie/Events-Assistant/raw/master/demos/updated-shared-task2.png', 
+                    'https://github.com/jschhie/Events-Assistant/raw/master/demos/edit-shared-task.png'], 
                     ['Update access modes per member.', 'Group member dashboard view.', 'Edit shared task.'],
                     'false',
                   ) 
@@ -174,7 +183,8 @@
       </div>
       {{
         project_content.project_text(
-          'Built a multi-user Flask application for secure team task management, featuring shared scheduling, status tracking, and multi-criteria search logic.',
+          'Built a multi-user Flask application for secure team task management, 
+          featuring shared scheduling, status tracking, and multi-criteria search logic.',
           ['Python', 'Flask', 'JS', 'SQLite', 'Jinja', 'Bootstrap', 'HTML', 'CSS'],
         )
       }}
@@ -209,8 +219,12 @@
             <div class="modal-body gallery" id="rdbms-gallery">
               <div id="rdbms-carousel" class="carousel slide">
                 {{ carousel.project_carousel(
-                    ['static/images/concurrent-locks-map.png', 'static/images/abort-transaction-demo.png', 'static/images/concurrency-performance.png'], 
-                    ['Concurrent threads & locks.', 'Abort transaction simulation.', 'Concurrent vs Serial Reads.'],
+                    ['static/images/concurrent-locks-map.png', 
+                    'static/images/abort-transaction-demo.png', 
+                    'static/images/concurrency-performance.png'], 
+                    ['Concurrent threads & locks.', 
+                    'Abort transaction simulation.', 
+                    'Concurrent vs Serial Reads.'],
                     'true',
                   ) 
                 }}
@@ -226,7 +240,8 @@
       </div>
       {{
         project_content.project_text(
-          'Collaboratively architected a lineage-based RDBMS in Python for student data, providing full CRUD and aggregate functionality with version history tracking.',
+          'Collaboratively architected a lineage-based RDBMS in Python for student data, 
+          providing full CRUD and aggregate functionality with version history tracking.',
           ['Python'],
         )
       }}
@@ -261,8 +276,12 @@
             <div class="modal-body gallery" id="gui-gallery">
               <div id="gui-carousel" class="carousel slide">
                 {{ carousel.project_carousel(
-                    ['https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/double%20barh.png', 'https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/summary3.png', 'https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/by%20month%20year%20tag.png'], 
-                    ['Monthly report for January 2002.', 'Summary table for January 2002.', 'Category breakdown for timeframe.'],
+                    ['https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/double%20barh.png', 
+                    'https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/summary3.png', 
+                    'https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/by%20month%20year%20tag.png'], 
+                    ['Monthly report for January 2002.', 
+                    'Summary table for January 2002.', 
+                    'Category breakdown for timeframe.'],
                     'true',
                   ) 
                 }}
@@ -278,7 +297,8 @@
       </div>
       {{
         project_content.project_text(
-          'Designed an interactive GUI for financial visualization, integrating Matplotlib to generate and track spending & income graphs.',
+          'Designed an interactive GUI for financial visualization, 
+          integrating Matplotlib to generate and track spending & income graphs.',
           ['Python', 'Tkinter', 'SQLite', 'Matplotlib'],
         )
       }}
@@ -313,8 +333,12 @@
             <div class="modal-body gallery" id="friends-gallery">
               <div id="friends-carousel" class="carousel slide">
                 {{ carousel.project_carousel(
-                    ['https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/full_frames/full%20frame%20matches%201.jpg?raw=true', 'https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/region_based/sample_kitchen_table/find%20kitchen%20table.jpg?raw=true', 'https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/region_based/sample_kitchen_table/kitchen%20table%20matches.jpg?raw=true'], 
-                    ['Full frame matches for red dress.', 'Region-based query for table.', 'Object detection for table.'],
+                    ['https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/full_frames/full%20frame%20matches%201.jpg?raw=true', 
+                    'https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/region_based/sample_kitchen_table/find%20kitchen%20table.jpg?raw=true', 
+                    'https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/region_based/sample_kitchen_table/kitchen%20table%20matches.jpg?raw=true'], 
+                    ['Full frame matches for red dress.', 
+                    'Region-based query for table.', 
+                    'Object detection for table.'],
                     'false',
                   ) 
                 }}
@@ -330,7 +354,9 @@
       </div>
       {{
         project_content.project_text(
-          'Created a video search application in MATLAB using k-means clustering and 6 GB SIFT features to identify the 5 most similar images within a large 6,600+ frame dataset.',
+          'Created a video search application in MATLAB 
+          using k-means clustering and 6 GB SIFT features 
+          to identify the 5 most similar images within a large 6,600+ frame dataset.',
           ['MATLAB'],
         )
       }}

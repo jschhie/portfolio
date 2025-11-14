@@ -413,7 +413,7 @@ nav a {
 }
 
 .gallery-arrow {
-  width: 65%;
+  width: 75%;
 }
 
 .carousel-item {
@@ -450,12 +450,16 @@ nav a {
 
 @media all and (min-width: 300px) {
   /* mobile, x-small, small */
-  .resized-img {
-    padding: 15%;
+  .custom-left-arrow {
+    margin-left: -50px;
   }
 
-  .gallery-arrow {
-    width: 65%;
+  .custom-right-arrow {
+    margin-left: 30px;
+  }
+
+  .resized-img {
+    padding: 15%;
   }
 
   .right-col {
@@ -487,6 +491,14 @@ nav a {
 
 @media all and (min-width: 720px) {
   /* medium */
+  .custom-left-arrow {
+    margin-left: -90px;
+  }
+
+  .custom-right-arrow {
+    margin-left: 50px;
+  }
+
   .nav-item {
     padding-left: 0%;
     margin-left: 10%;
@@ -630,7 +642,7 @@ nav a {
   }
 
   .gallery-arrow {
-    width: 60%;
+    width: 80%;
   }
 
   .project-box {
