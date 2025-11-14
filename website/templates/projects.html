@@ -27,7 +27,7 @@
     <!-- ONLINE MUSIC BAND STORE -->
     <div class="card project-box">
       {{ project_content.project_header(
-          'Online Band Store', 
+          'Music Band Store', 
           'https://github.com/jschhie/Mock-Band-Web-App', 
           'https://bandstore.pythonanywhere.com/',
         ) 
@@ -46,7 +46,7 @@
         aria-hidden="true"
       >
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
+          <div class="modal-content cross-bg-pattern">
             <!-- MODAL HEADER -->
              {{ navigation.modal_header('bandstoreLabel', 'Band Music Store') }}
             <!-- BAND STORE GALLERY -->
@@ -55,6 +55,7 @@
                 {{ carousel.project_carousel(
                     ['https://github.com/jschhie/band-web-app/raw/main/newdemos/avg-stars.png', 'https://github.com/jschhie/Mock-Band-Web-App/raw/main/newdemos/new-font-merch2.png', 'https://live.staticflickr.com/65535/53153939310_c8105d0dca_k.jpg'], 
                     ['Product catalog & reviews/ratings.', 'Customer receipt.', 'Store with virtual shopping cart.'],
+                    'false',
                   ) 
                 }}
                 <!-- PREV/NEXT BUTTON CONTROLS -->
@@ -70,7 +71,7 @@
       {{
         project_content.project_text(
           'Designed and developed a full-stack e-commerce platform with a secure customer portal, dynamic shopping cart logic, membership rewards system, and complete transaction processing.',
-          ['Python', 'Flask', 'JavaScript', 'SQLite', 'Bootstrap', 'HTML', 'CSS'],
+          ['Python', 'Flask', 'JS', 'SQLite', 'Jinja', 'Bootstrap', 'HTML', 'CSS'],
         )
       }}
     </div>
@@ -97,7 +98,7 @@
         aria-hidden="true"
       >
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
+          <div class="modal-content cross-bg-pattern">
             <!-- MODAL HEADER -->
              {{ navigation.modal_header('onlinecafeModal', 'Cafe Ordering Platform') }}
             <!-- ONLINE CAFE ORDERING SYSTEM GALLERY -->
@@ -105,7 +106,8 @@
               <div id="cafe-carousel" class="carousel slide">
                 {{ carousel.project_carousel(
                     ['https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-1.png', 'https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-modal-2.png', 'https://github.com/jschhie/toast-tab-cafe/raw/main/demos/updated-cart-2.png'], 
-                    ['Drink customization (1/2).', 'Drink customization (2/2).', 'Sample cart.'],
+                    ['Drink description.', 'Drink customization.', 'Sample cart.'],
+                    'false',
                   ) 
                 }}
                 <!-- PREV/NEXT BUTTON CONTROLS -->
@@ -121,7 +123,7 @@
       {{
         project_content.project_text(
           'Developed a mobile-first cafe ordering system with an integrated Admin Dashboard for real-time inventory tracking and complex order management.',
-          ['Python', 'Flask', 'JavaScript', 'SQLite', 'Bootstrap', 'HTML', 'CSS'],
+          ['Python', 'Flask', 'JS', 'SQLite', 'Jinja', 'Bootstrap', 'HTML', 'CSS'],
         )
       }}
     </div>
@@ -148,7 +150,7 @@
         aria-hidden="true"
       >
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
+          <div class="modal-content cross-bg-pattern">
             <!-- MODAL HEADER -->
              {{ navigation.modal_header('dashboardModal', 'Team Task Board') }}
             <!-- TEAM TASK BOARD GALLERY -->
@@ -157,6 +159,7 @@
                 {{ carousel.project_carousel(
                     ['https://github.com/jschhie/Events-Assistant/raw/master/demos/edit-members.png', 'https://github.com/jschhie/Events-Assistant/raw/master/demos/updated-shared-task2.png', 'https://github.com/jschhie/Events-Assistant/raw/master/demos/edit-shared-task.png'], 
                     ['Update access modes per member.', 'Group member dashboard view.', 'Edit shared task.'],
+                    'false',
                   ) 
                 }}
                 <!-- PREV/NEXT BUTTON CONTROLS -->
@@ -172,7 +175,7 @@
       {{
         project_content.project_text(
           'Built a multi-user Flask application for secure team task management, featuring shared scheduling, status tracking, and multi-criteria search logic.',
-          ['Python', 'Flask', 'JavaScript', 'SQLite', 'Bootstrap', 'HTML', 'CSS'],
+          ['Python', 'Flask', 'JS', 'SQLite', 'Jinja', 'Bootstrap', 'HTML', 'CSS'],
         )
       }}
     </div>
@@ -199,15 +202,16 @@
         aria-hidden="true"
       >
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
+          <div class="modal-content cross-bg-pattern">
             <!-- MODAL HEADER -->
-             {{ navigation.modal_header('rdbmsModal', 'Lineage-Based Relational Database Management System') }}
+             {{ navigation.modal_header('rdbmsModal', 'Lineage-Based RDBMS') }}
             <!-- RDBMS GALLERY -->
             <div class="modal-body gallery" id="rdbms-gallery">
               <div id="rdbms-carousel" class="carousel slide">
                 {{ carousel.project_carousel(
                     ['static/images/concurrent-locks-map.png', 'static/images/abort-transaction-demo.png', 'static/images/concurrency-performance.png'], 
-                    [],
+                    ['Concurrent threads & locks.', 'Abort transaction simulation.', 'Concurrent vs Serial Reads.'],
+                    'true',
                   ) 
                 }}
                 <!-- PREV/NEXT BUTTON CONTROLS -->
@@ -250,7 +254,7 @@
         aria-hidden="true"
       >
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
+          <div class="modal-content cross-bg-pattern">
             <!-- MODAL HEADER -->
              {{ navigation.modal_header('guiModal', 'Financial Visualizer') }}
             <!-- FINANCIAL GUI GALLERY -->
@@ -259,6 +263,7 @@
                 {{ carousel.project_carousel(
                     ['https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/double%20barh.png', 'https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/summary3.png', 'https://github.com/jschhie/Financial-Visualizer/raw/master/updated_demos/by%20month%20year%20tag.png'], 
                     ['Monthly report for January 2002.', 'Summary table for January 2002.', 'Category breakdown for timeframe.'],
+                    'true',
                   ) 
                 }}
                 <!-- PREV/NEXT BUTTON CONTROLS -->
@@ -301,15 +306,16 @@
         aria-hidden="true"
       >
         <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
+          <div class="modal-content cross-bg-pattern">
             <!-- MODAL HEADER -->
-             {{ navigation.modal_header('friendsModal', 'Image Similarity Search for Friends') }}
+             {{ navigation.modal_header('friendsModal', 'Image Similarity Search') }}
             <!-- IMAGE CLASSIFER GALLERY -->
             <div class="modal-body gallery" id="friends-gallery">
               <div id="friends-carousel" class="carousel slide">
                 {{ carousel.project_carousel(
                     ['https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/full_frames/full%20frame%20matches%201.jpg?raw=true', 'https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/region_based/sample_kitchen_table/find%20kitchen%20table.jpg?raw=true', 'https://github.com/jschhie/image-detector-prog/raw/master/sample_outputs/region_based/sample_kitchen_table/kitchen%20table%20matches.jpg?raw=true'], 
                     ['Full frame matches for red dress.', 'Region-based query for table.', 'Object detection for table.'],
+                    'false',
                   ) 
                 }}
                 <!-- PREV/NEXT BUTTON CONTROLS -->

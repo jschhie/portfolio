@@ -34,6 +34,10 @@
       "label": "Flask"
     },
     {
+      "iconPath": "https://www.svgrepo.com/show/473669/jinja.svg",
+      "label": "Jinja"
+    },
+    {
       "iconPath": "https://www.svgrepo.com/show/330083/bootstrap.svg",
       "label": "Bootstrap"
     },
