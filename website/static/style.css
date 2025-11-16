@@ -283,6 +283,16 @@ nav a,
 
 .demo-text {
   font-weight: bold;
+  color: black;
+  border-radius: 15px;
+  border:  1px black solid;
+  background-color: transparent;
+}
+
+.demo-text:hover {
+  color: white;
+  background-color: black;
+  transition: ease 0.3s;
 }
 
 .img-btn {
@@ -290,10 +300,6 @@ nav a,
   background-color: transparent;
   margin-top: 10%;
   margin-bottom: 10%;
-}
-
-.img-btn p:hover {
-  color: rgba(106, 84, 62, 1);
 }
 
 .img-btn img {
