@@ -8,6 +8,20 @@
   ],
   "routes": [
     {
+      "src": "/static/(.*\\.json)",
+      "headers": {
+        "Cache-Control": "public, max-age=300, must-revalidate"
+      },
+      "dest": "main.py"
+    },
+    {
+      "src": "/static/(.*\\.(?:css|js|gif|png|jpe?g|svg|ico|woff2?|eot|ttf|otf))",
+      "headers": {
+        "Cache-Control": "public, max-age=2592000, immutable"
+      },
+      "dest": "main.py"
+    },
+    {
       "src": "/(.*)",
       "dest": "main.py"
     }
