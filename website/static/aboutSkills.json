@@ -1,92 +1,92 @@
 {
   "languages": [
     {
-      "iconPath": "https://www.svgrepo.com/show/314507/python.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/python.svg?raw=true",
       "label": "Python"
     },
 
     {
-      "iconPath": "https://www.svgrepo.com/show/473670/javascript.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/javascript.svg?raw=true",
       "label": "JavaScript"
     },
 
     {
-      "iconPath": "https://www.svgrepo.com/show/508839/html5-02.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/html.svg?raw=true",
       "label": "HTML"
     },
 
     {
-      "iconPath": "https://www.svgrepo.com/show/508795/css3-02.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/css.svg?raw=true",
       "label": "CSS"
     }
   ],
   "frameworks": [
     {
-      "iconPath": "https://www.svgrepo.com/show/521328/vue-16.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/vue.svg?raw=true",
       "label": "Vue.js"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/369594/tailwind.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/tailwind.svg?raw=true",
       "label": "Tailwind CSS"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/508915/flask.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/flask.svg?raw=true",
       "label": "Flask"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/473669/jinja.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/jinja.svg?raw=true",
       "label": "Jinja"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/330083/bootstrap.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/bootstrap.svg?raw=true",
       "label": "Bootstrap"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/314507/python.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/python.svg?raw=true",
       "label": "Tkinter"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/314507/python.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/python.svg?raw=true",
       "label": "Matplotlib"
     }
   ],
   "dataSkills": [
     {
-      "iconPath": "https://www.svgrepo.com/show/342129/postgresql.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/postgres.svg?raw=true",
       "label": "PostgreSQL"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/473796/sqlite.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/sqlite.svg?raw=true",
       "label": "SQLite"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/341068/sql.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/sql.svg?raw=true",
       "label": "SQL"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/340479/json.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/json.svg?raw=true",
       "label": "JSON"
     }
   ],
   "tools": [
     {
-      "iconPath": "https://www.svgrepo.com/show/473619/git.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/git.svg?raw=true",
       "label": "Git"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/508897/bash02.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/bash.svg?raw=true",
       "label": "Bash"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/416900/chrome-internet-media.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/chrome.svg?raw=true",
       "label": "Chrome DevTools"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/354513/vercel-icon.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/vercel.svg?raw=true",
       "label": "Vercel"
     },
     {
-      "iconPath": "https://www.svgrepo.com/show/341869/google-cloud.svg",
+      "iconPath": "https://github.com/jschhie/portfolio/blob/main/website/static/icons/gcp.svg?raw=true",
       "label": "Google Cloud Platform"
     }
   ]
